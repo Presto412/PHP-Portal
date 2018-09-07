@@ -1,0 +1,6 @@
+CREATE TABLE da1 (
+    ID int NOT NULL AUTO_INCREMENT,
+    UserName varchar(255) UNIQUE,
+    Password varchar(255),
+    PRIMARY KEY (ID)
+);
